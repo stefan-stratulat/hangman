@@ -20,6 +20,7 @@ print(display)
 
 #GAME LOGIC
 while game_is_on:
+    print(logo)
     #Ask the user to guess a letter and assign their answer to a variable called guess.
     guess = input("Guess a letter: ").lower()
 
@@ -42,6 +43,7 @@ while game_is_on:
     #lose condition
     if lives == 0:
         print("You lose!")
+        print(f"The word was {chosen_word}")
         game_is_on = False
     print(stages[lives])
 
