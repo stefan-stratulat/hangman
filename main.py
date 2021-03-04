@@ -12,7 +12,7 @@ word_length = len(chosen_word)
 print(logo)
 
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+#print(f'Pssst, the solution is {chosen_word}.')
 
 #For each letter in the chosen_word, add a "_" to 'display'.
 display = ["_" for letter in chosen_word]
